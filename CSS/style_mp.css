@@ -1,0 +1,90 @@
+.accueil{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Shrikhand', cursive;
+    font-weight: lighter;
+    margin:auto;
+}
+header{
+    padding-top: auto;
+    height: 50px;
+    background: #800080;
+    color:#efefc8;
+}
+footer{
+    background: #800080;   
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:3px;
+    height:50px;
+}
+ul{
+    padding:10px;
+	margin:10px 0px 80px;
+	list-style-type:none;
+}
+ul li a{
+    font-family: 'nanum+gothic', monospace ;
+    text-decoration: none;
+    color:#efefc8;
+}
+body{
+    margin: 0%;
+    background: #7EA0BF;
+
+}
+.button {
+    font-family: 'nanum+gothic', cursive;
+    background-color: #800080;
+    border: none;
+    color: #efefc8;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: white;
+    color: #7E1568;
+}
+.button a{
+    text-decoration: none;
+	color: #efefc8;
+}
+.button a:hover{
+    background-color: white;
+    color: #7E1568;
+}
+#game table {
+    margin-top: 10%;
+    margin-right: 25%;
+    float: right;
+    border: 5px #5883ac;
+    border-radius: 15px;
+    background-color: #7EA0BF;
+}
+#game td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px #7EA0BF ;
+    border-radius: 2cm;
+    background-color: white;
+    cursor: pointer;
+    
+}
+#game td.joueur1{
+    background-color: #161311;
+
+}
+#game td.joueur2 {
+    background-color: #E3602C;
+}
